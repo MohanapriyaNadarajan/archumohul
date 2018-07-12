@@ -1,9 +1,6 @@
-a=int(input())
-b=int(input())
-c=int(input())
-if((a>b)and(a>c)):
-    print(a)
-elif(b>c):
-    print(b)
-else:
-    print(c)
+lst = []
+num = 3
+for n in range(3):
+    numbers = int(input())
+    lst.append(numbers)
+print( max(lst))
